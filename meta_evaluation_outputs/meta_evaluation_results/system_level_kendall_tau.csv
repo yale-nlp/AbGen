@@ -1,0 +1,15 @@
+Evaluator,importance,faithfulness,soundness,overall
+DeepSeek-R1-0528,0.752,0.691,0.181,0.407
+DeepSeek-R1-0528-Qwen3-8B,0.674,0.757,0.862,0.660
+Llama-3.3-70B-Instruct-FP8-dynamic,0.463,0.404,0.841,0.516
+Llama-4-Maverick-17B-128E-Instruct-FP8,0.584,0.241,0.622,0.523
+Llama-4-Scout-17B-16E-Instruct,0.620,0.327,0.409,0.421
+Meta-Llama-3.1-70B-Instruct-FP8,0.264,0.409,0.266,0.436
+QwQ-32B,0.856,0.682,0.858,0.877
+Qwen2.5-32B-Instruct,0.342,0.673,0.687,0.673
+Qwen3-32B-AWQ,0.741,0.779,0.884,0.864
+Qwen3-8B,0.796,0.682,0.818,0.847
+gemini-2.5-flash-preview-05-20,0.590,0.748,0.849,0.775
+gpt-4.1,0.606,0.678,0.864,0.647
+gpt-4.1-mini,0.562,0.523,0.828,0.713
+gpt-4o,0.473,0.607,0.767,0.726
