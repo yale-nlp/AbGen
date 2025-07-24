@@ -71,3 +71,29 @@ For any issues or questions, kindly email us at: Yilun Zhao (yilun.zhao@yale.edu
 ## Citation
 
 If you use the **AbGen** dataset in your work, please kindly cite the paper:
+```
+@inproceedings{zhao-etal-2025-abgen,
+    title = "{A}b{G}en: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research",
+    author = "Zhao, Yilun  and
+      Chen, Weiyuan  and
+      Xu, Zhijian  and
+      Patwardhan, Manasi  and
+      Wang, Chengye  and
+      Liu, Yixin  and
+      Vig, Lovekesh  and
+      Cohan, Arman",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.611/",
+    pages = "12479--12491",
+    ISBN = "979-8-89176-251-0",
+    abstract = "We introduce AbGen, the first benchmark designed to evaluate the capabilities of LLMs in designing ablation studies for scientific research. AbGen consists of 2,000 expert-annotated examples derived from 677 NLP papers. In this benchmark, LLMs are tasked with generating detailed ablation study designs for a specified module or process based on the given research context. Our evaluation of leading LLMs, such as GPT-4o and Llama-3.1, highlights a significant performance gap between these models and human experts in terms of the importance, faithfulness, and soundness of the ablation study designs. Moreover, we demonstrate that current automated evaluation methods are not reliable for our task, as they show a significant discrepancy when compared to human assessment. To better investigate this, we develop AbGen-Eval, a meta-evaluation benchmark designed to assess the reliability of commonly used automated evaluation systems in measuring LLM performance on our task. We investigate various LLM-based evaluation methods on AbGen-Eval, providing insights for future research on developing more effective and reliable LLM-based evaluation systems for complex scientific tasks."
+}
+```
